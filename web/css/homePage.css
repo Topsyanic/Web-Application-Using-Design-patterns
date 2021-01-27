@@ -1,0 +1,176 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 8, 2021, 5:01:15 PM
+    Author     : Raaid
+*/
+
+* {
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .2s;
+    -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+    -moz-transition-property: all;
+    -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+
+}
+p {
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.navBody{
+
+    text-align:center;
+    font-family: 'Oswald', sans-serif;
+}
+body
+{
+    background:url(background3.jpg);
+    background-repeat:repeat-y;
+
+}
+
+.title-h1{
+    color:#fff;
+    font-weight:100;
+}
+
+.btn{
+    color:#000000;
+    background:#fff;
+    padding:10px 20px;
+    font-size:12px;
+    text-decoration:none;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+
+.btn:hover{
+    border:none;
+    background:rgba(0, 0, 0, 0.4);
+    background:#999;
+    padding:20px 20px; #000
+    color:#1b1b1b;
+}
+
+.footer{
+    font-size:8px;
+    color:#fff;
+    clear:both;
+    display:block;
+    letter-spacing:5px;
+    border:1px solid #fff;
+    padding:5px;
+    text-decoration:none;
+    width:210px;
+    margin:auto;
+    margin-top:400px;
+}
+.package-heading
+{
+    color:#fff;
+    padding-left:50px;
+    padding-top:15px;
+    font-weight:50;
+
+    font-family: 'Oswald', sans-serif;
+}
+.cards{
+    width: 15%;
+    background-color: white;
+    text-align: center;
+    display:inline-block;
+
+    border-style: solid;
+    border-color:white;
+    border-width: 0px;
+    margin: 40px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+}
+.cards:hover{
+
+}
+
+.image img{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 100%;
+
+}
+.card-title{
+    font-family: Garamond, serif;
+    text-align: center;
+    font-weight: 100;
+}
+.card-des{
+    font-family: Garamond, serif;
+    padding-left:15px;
+    text-align: center;
+}
+.card-button{
+    text-decoration: none;
+    font-family: Garamond, serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    border:1px solid black;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:15px;
+    padding-left:15px;
+    border-radius: 5px;
+    color:white
+
+}
+.card-button:hover {
+    background-color: white;
+    color:black;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.card-main{
+
+}
+.price-text{
+    color:#000000;
+    text-align: center;
+    font-weight:100;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.search-box{
+    padding-left: 30%;
+    padding-top: 3%;
+}
+.search-input{
+    background-color: #1A1A1A;
+    text-align: center;
+    border:3px solid white;
+    color: white;
+    height:40px;
+    width:500px;
+
+
+}
+
+.search-btn{
+    color:#000000;
+    background:#fff;
+    padding:15px 20px;
+    font-size:13px;
+    text-decoration:none;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+
+
+.search-select{
+    padding:15px 20px;
+}

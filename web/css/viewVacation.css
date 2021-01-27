@@ -1,0 +1,113 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 10, 2021, 11:34:03 AM
+    Author     : Raaid
+*/
+* {
+	-webkit-transition-property: all;
+	-webkit-transition-duration: .2s;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+	-moz-transition-property: all;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+ 
+}
+body
+{
+    background:url(background.jpg);
+    background-repeat:repeat-y;
+}
+.navBody{
+ 
+  text-align:center;
+  font-family: 'Oswald', sans-serif;
+}
+.title-h1{
+  color:#000000;
+  font-weight:100;
+}
+
+.btn{
+  color:#fff;
+  background:#000000;
+  padding:10px 20px;
+  font-size:12px;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+.btn:hover{
+  border:none;
+  background:rgba(0, 0, 0, 0.4);
+  background:#999;
+  padding:20px 20px; #000
+  color:#1b1b1b;
+}
+.page-title
+{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight:100;
+}
+
+.cards{
+    margin-top:50px;
+    margin-left: 500px;
+    width: 50%;
+    background-color: white;
+    text-align: center;
+    display:block;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin-left: 25%;
+
+}
+.aligntment{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+    
+}
+.cards:hover{
+
+}
+
+.image img{
+    width: 100%;
+
+}
+.card-title{
+    font-family: "Garamond", Garamond, serif;
+    text-align: center;
+}
+.card-des{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    font-size: 20px;
+}
+.card-button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    border:1px solid black;
+    padding:10px;
+    border-radius: 5px;
+    color:white
+
+}
+.card-button:hover{
+    background-color: white;
+    color:black;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.form-style
+{
+    font-size: 20px;
+}
