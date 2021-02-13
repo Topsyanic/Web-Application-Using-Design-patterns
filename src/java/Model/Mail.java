@@ -29,8 +29,8 @@ public class Mail {
         properties.put("mail.smtp.host", "smtp.gmail.com");
         properties.put("mail.smtp.port", "587");
 
-        String myEmail = "ineedgamergirlfriend1212@gmail.com";
-        String password = "NEEDGAMERGIRLPLS";
+        String myEmail = "THE EMAIL SHOULD BE HERE";
+        String password = "THE PASSWORD SHOULD BE HERE";
 
         Session session = Session.getInstance(properties, new Authenticator() {
             @Override
